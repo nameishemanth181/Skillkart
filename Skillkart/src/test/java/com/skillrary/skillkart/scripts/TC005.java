@@ -10,6 +10,6 @@ public class TC005 extends BaseTest
 	public void testSignInColor2()
 	{
 		HomePage hp = new HomePage(driver, webActionUtil);
-		hp.verifyButtonColor("signOut","#FFFF","testSignInColor");
+		hp.verifyButtonColor("signOut","#FFFFFF","testSignInColor");
 	}
 }
