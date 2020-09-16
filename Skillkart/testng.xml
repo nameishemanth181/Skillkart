@@ -4,19 +4,6 @@
   <test name="chromeTest">
     <classes>
       <class name="com.skillrary.skillkart.scripts.TC001"/>
-      <class name="com.skillrary.skillkart.scripts.TC002"/>
-      <class name="com.skillrary.skillkart.scripts.TC003"/>
-    </classes>
-  </test> <!-- Test -->
-  <test name="firefoxTest">
-  	<parameter name="browserName" value="firefox"></parameter>
-  	<parameter name="appURL" value="http://automationpractice.com/index.php"></parameter>
-  	<parameter name="ITO" value="15"></parameter>
-  	<parameter name="ETO" value="15"></parameter>
-    <classes>
-      <class name="com.skillrary.skillkart.scripts.TC001"/>
-      <class name="com.skillrary.skillkart.scripts.TC002"/>
-      <class name="com.skillrary.skillkart.scripts.TC003"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
