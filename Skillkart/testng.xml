@@ -4,7 +4,6 @@
   <test name="chromeTest">
     <classes>
       <class name="com.skillrary.skillkart.scripts.TC001"/>
-      <class name="com.skillrary.skillkart.scripts.TC003"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
