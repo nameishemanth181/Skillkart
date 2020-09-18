@@ -11,8 +11,8 @@ public interface AutoConstants
 	String GECKO_KEY="webdriver.gecko.driver";
 	String GECKO_PATH="./drivers/geckodriver.exe";
 	
-	String ITO="20";
-	String ETO="20";
+	String DEFAULT_ITO="20";
+	String DEFAULT_ETO="20";
 	
 	String IMG_PATH="./errorshots/";
 	String XL_PATH="./resources/testdata.xlsx";
