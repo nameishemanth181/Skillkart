@@ -29,8 +29,7 @@ public class BaseTest implements AutoConstants
 	@Parameters({"browserName","appURL","ITO","ETO"})
 	@BeforeClass
 	public void launchApp(@Optional(DEFAULT_BROWSER)String browserName,
-							@Optional(DEFAULT_APPURL)String appURL,
-							@Optional(ITO)String ITO,
+							@Optional(DEFAULT_APPURL)String appURL,@Optional(ITO)String ITO,
 							@Optional(ETO)String ETO)
 	{
 		if(browserName.equalsIgnoreCase("chrome"))
